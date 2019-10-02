@@ -1,0 +1,41 @@
+{
+  "name": "portfolio-next-app",
+  "version": "1.0.0",
+  "description": "My software developer portfolio written in NextJS/React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rvvergara/my-portfolio.git"
+  },
+  "keywords": [
+    "nextjs",
+    "react",
+    "portfolio",
+    "web-developer",
+    "frontend-developer",
+    "backend-developer",
+    "fullstack-developer"
+  ],
+  "author": "Ryan Vergara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rvvergara/my-portfolio/issues"
+  },
+  "homepage": "https://github.com/rvvergara/my-portfolio#readme",
+  "dependencies": {
+    "next": "^9.0.7",
+    "react": "^16.10.1",
+    "react-dom": "^16.10.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.15.1",
+    "eslint-plugin-react-hooks": "^1.7.0"
+  }
+}
