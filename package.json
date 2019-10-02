@@ -4,7 +4,10 @@
   "description": "My software developer portfolio written in NextJS/React",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next -p 8080",
+    "build": "next build",
+    "start": "next start"
   },
   "repository": {
     "type": "git",
