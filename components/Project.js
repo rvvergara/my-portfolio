@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 import ReactHtmlParser from 'react-html-parser';
 import Container from '@material-ui/core/Container';
+import ProjectImages from './ProjectImages';
 
 const Project = ({ project }) => (
   <Container>
@@ -8,6 +9,7 @@ const Project = ({ project }) => (
     <div>
       { ReactHtmlParser(project.description) }
     </div>
+    <ProjectImages screenshots={project.screenshots} />
   </Container>
 );
 

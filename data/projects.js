@@ -11,12 +11,36 @@ export default [
       <p>It was an awesome project!</p>
     `,
     screenshots: [
-      'http://tinyimg.io/i/lej8jW1.png',
-      'http://tinyimg.io/i/ejAbYVz.png',
-      'http://tinyimg.io/i/1JpQqAQ.png',
-      'http://tinyimg.io/i/vasZvJJ.png',
-      'http://tinyimg.io/i/YhQUQdL.png',
-      'http://tinyimg.io/i/iUsuM4i.png',
+      {
+        photo: 'http://tinyimg.io/i/lej8jW1.png',
+        thumbnail: 'http://tinyimg.io/i/lej8jW1.png',
+        caption: 'Homepage for visitors',
+      },
+      {
+        photo: 'http://tinyimg.io/i/ejAbYVz.png',
+        thumbnail: 'http://tinyimg.io/i/ejAbYVz.png',
+        caption: 'Sign up page',
+      },
+      {
+        photo: 'http://tinyimg.io/i/1JpQqAQ.png',
+        thumbnail: 'http://tinyimg.io/i/1JpQqAQ.png',
+        caption: 'User newsfeed',
+      },
+      {
+        photo: 'http://tinyimg.io/i/vasZvJJ.png',
+        thumbnail: 'http://tinyimg.io/i/vasZvJJ.png',
+        caption: 'User making a post',
+      },
+      {
+        photo: 'http://tinyimg.io/i/YhQUQdL.png',
+        thumbnail: 'http://tinyimg.io/i/YhQUQdL.png',
+        caption: 'User profile page',
+      },
+      {
+        photo: 'http://tinyimg.io/i/iUsuM4i.png',
+        thumbnail: 'http://tinyimg.io/i/iUsuM4i.png',
+        caption: 'User friends list page',
+      },
     ],
   },
   {
@@ -31,12 +55,36 @@ export default [
       <p>People can sign up and read books</p>
     `,
     screenshots: [
-      'http://tinyimg.io/i/74fQfGQ.png',
-      'http://tinyimg.io/i/mRSiOCF.png',
-      'http://tinyimg.io/i/hyFbvnR.png',
-      'http://tinyimg.io/i/ALEFczR.png',
-      'http://tinyimg.io/i/LJqjq64.png',
-      'http://tinyimg.io/i/7aFNdnF.png',
+      {
+        photo: 'http://tinyimg.io/i/74fQfGQ.png',
+        thumbnail: 'http://tinyimg.io/i/74fQfGQ.png',
+        caption: 'Login page',
+      },
+      {
+        photo: 'http://tinyimg.io/i/mRSiOCF.png',
+        thumbnail: 'http://tinyimg.io/i/mRSiOCF.png',
+        caption: 'Sign up page',
+      },
+      {
+        photo: 'http://tinyimg.io/i/hyFbvnR.png',
+        thumbnail: 'http://tinyimg.io/i/hyFbvnR.png',
+        caption: 'Collection page',
+      },
+      {
+        photo: 'http://tinyimg.io/i/ALEFczR.png',
+        thumbnail: 'http://tinyimg.io/i/ALEFczR.png',
+        caption: 'Updating currently read page',
+      },
+      {
+        photo: 'http://tinyimg.io/i/LJqjq64.png',
+        thumbnail: 'http://tinyimg.io/i/LJqjq64.png',
+        caption: 'User management page for admins',
+      },
+      {
+        photo: 'http://tinyimg.io/i/7aFNdnF.png',
+        thumbnail: 'http://tinyimg.io/i/7aFNdnF.png',
+        caption: 'Book search results page',
+      },
     ],
   },
 ];
