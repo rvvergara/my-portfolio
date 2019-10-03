@@ -1,16 +1,20 @@
+import PropTypes from 'prop-types';
 import projects from '../../data/projects';
+import Project from '../../components/Project';
 
-const Project = ({ project }) => (
-  <div>
-    {project.title}
-  </div>
+const ProjectPage = ({ project }) => (
+  <Project project={project} />
 );
 
-Project.getInitialProps = ({ query }) => {
+ProjectPage.getInitialProps = ({ query }) => {
   const { title } = query;
   const project = projects.find(project => project.title === title);
 
   return { project };
 };
 
-export default Project;
+ProjectPage.propTypes = {
+  project: PropTypes.instanceOf(Object).isRequired,
+};
+
+export default ProjectPage;
