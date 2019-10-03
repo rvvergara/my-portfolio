@@ -1,9 +1,14 @@
 import PropTypes from 'prop-types';
+import ReactHtmlParser from 'react-html-parser';
+import Container from '@material-ui/core/Container';
 
 const Project = ({ project }) => (
-  <div>
-    {project.title}
-  </div>
+  <Container>
+    <h1>{project.title}</h1>
+    <div>
+      { ReactHtmlParser(project.description) }
+    </div>
+  </Container>
 );
 
 Project.propTypes = {
