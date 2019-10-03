@@ -7,8 +7,24 @@ export default [
     demoLink: 'https://facials.herokuapp.com/',
     technologies: ['ruby', 'ruby on rails', 'jquery', 'bootstrap'],
     description: `
-      <p>Attempted to clone Facebook here using Rails.</p>
-      <p>It was an awesome project!</p>
+      <p>In this project, I and my coding partner used Ruby on Rails to clone Facebook.</p>
+      <p>The app was built on pure Rails. With jQuery some of the button effects were created.</p>
+      <h3>Features</h3>
+      <ol>
+        <li>User signup and signin (with Remember Me) and creation of Profile (with Profile picture uploading)</li>
+        <li>Sending, Accepting, Cancelling and Deleting (Rejecting) Friend Requests
+        </li>
+        <li>Removing Friends</li>
+        <li>Showing a user's friends and mutual friends with other users</li>
+        <li>Newsfeed and Timeline</li>
+        <li>Posting on the newsfeed, on one's own timeline and on a friend's timeline (allows image uploading)</li>
+        <li>Editing and Deleting authored posts</li>
+        <li>Commenting on posts or other comments</li>
+        <li>Editing and deleting comments</li>
+        <li>Liking and Unliking posts and comments</li>
+        <li>Showing Like count</li>
+        <li>Signup/Signin using actual Facebook account</li>
+      </ol>
     `,
     screenshots: [
       {
@@ -51,8 +67,19 @@ export default [
     demoLink: 'https://bookstore-cms-next-app.herokuapp.com',
     technologies: ['next js', 'react', 'redux', 'jest', 'sass'],
     description: `
-      <p>This used React and Redux</p>
-      <p>People can sign up and read books</p>
+      <p>A Simple Books content-management-system built using NextJS and Redux</p>
+      <p>Connects to a backend Rails JSON API for data reading and writing.</p>
+      <h3>Features</h3>
+      <ol>
+        <li>User signup and signin (utilizes JSON Web Token)</li>
+        <li>User can either be a regular user or an admin user</li>
+        <li>Admin users can search books from the Google API and add to the app's library</li>
+        <li>SuperAdmin (owner) can set user priveleges (admin or regular user)</li>
+        <li>Regular users can search books available in the library.</li>
+        <li>Regular users can add books to their collections from the library.</li>
+        <li>Regular users can update the currently read page on each of their collection items.</li>
+        <li>Regular users can remove books from their collections.</li>
+      </ol>
     `,
     screenshots: [
       {
