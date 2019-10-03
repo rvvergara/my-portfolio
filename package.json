@@ -33,7 +33,8 @@
     "@material-ui/icons": "^4.4.3",
     "next": "^9.0.7",
     "react": "^16.10.1",
-    "react-dom": "^16.10.1"
+    "react-dom": "^16.10.1",
+    "react-html-parser": "^2.0.2"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
