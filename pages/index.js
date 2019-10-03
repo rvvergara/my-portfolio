@@ -1,5 +1,4 @@
-import Link from 'next/link';
-import projects from '../data/projects';
+import ProjectList from '../components/ProjectList';
 
 const Index = () => (
   <div>
@@ -9,19 +8,7 @@ const Index = () => (
     <div>
       This is my portfolio
     </div>
-    {
-      projects.map(project => (
-        <Link
-          key={project.id}
-          href="/projects/[title]"
-          as={`/projects/${project.title}`}
-        >
-          <h4>
-            {project.title}
-          </h4>
-        </Link>
-      ))
-    }
+    <ProjectList />
   </div>
 );
 export default Index;
