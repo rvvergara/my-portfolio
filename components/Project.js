@@ -7,9 +7,15 @@ const Project = ({ project }) => (
   <Container>
     <h1>{project.title}</h1>
     <div>
-      { ReactHtmlParser(project.description) }
+      <a href={project.repository}>Repository</a>
+      &nbsp;
+      &nbsp;
+      <a href={project.demoLink}>Demo</a>
     </div>
     <ProjectImages screenshots={project.screenshots} />
+    <div>
+      { ReactHtmlParser(project.description) }
+    </div>
   </Container>
 );
 

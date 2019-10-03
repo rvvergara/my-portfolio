@@ -15,7 +15,7 @@ const ProjectImages = ({ screenshots }) => {
         type="button"
         onClick={toggleGallery}
       >
-        Open PhotoGallery
+        See Screenshots
       </button>
       <ReactBnbGallery
         show={galleryOpened}
