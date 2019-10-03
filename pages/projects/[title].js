@@ -1,9 +1,12 @@
 import PropTypes from 'prop-types';
 import projects from '../../data/projects';
 import Project from '../../components/Project';
+import Layout from '../../components/Layout';
 
 const ProjectPage = ({ project }) => (
-  <Project project={project} />
+  <Layout title={project.title}>
+    <Project project={project} />
+  </Layout>
 );
 
 ProjectPage.getInitialProps = ({ query }) => {
