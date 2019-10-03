@@ -31,10 +31,13 @@
   "dependencies": {
     "@material-ui/core": "^4.5.0",
     "@material-ui/icons": "^4.4.3",
+    "@zeit/next-sass": "^1.0.1",
     "next": "^9.0.7",
+    "node-sass": "^4.12.0",
     "react": "^16.10.1",
     "react-dom": "^16.10.1",
-    "react-html-parser": "^2.0.2"
+    "react-html-parser": "^2.0.2",
+    "react-image-gallery": "^0.9.1"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
