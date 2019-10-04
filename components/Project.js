@@ -12,7 +12,7 @@ const Project = ({ project }) => (
       &nbsp;
       <a href={project.demoLink}>Demo</a>
     </div>
-    <ProjectImages screenshots={project.screenshots} />
+    {project.screenshots.length > 0 && <ProjectImages screenshots={project.screenshots} />}
     <div>
       { ReactHtmlParser(project.description) }
     </div>
