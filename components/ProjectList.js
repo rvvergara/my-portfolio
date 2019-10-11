@@ -1,18 +1,8 @@
-import Link from 'next/link';
+import Project from './Project';
 import projects from '../data/projects';
 
 const ProjectList = () => projects.map(project => (
-  <Link
-    key={project.id}
-    href="/projects/[title]"
-    as={`/projects/${project.title}`}
-  >
-    <a>
-      <h4>
-        {project.title}
-      </h4>
-    </a>
-  </Link>
+  <Project project={project} key={project.id} />
 ));
 
 export default ProjectList;
