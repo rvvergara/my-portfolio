@@ -1,6 +1,3 @@
-import ProjectList from '../components/ProjectList';
-import '../scss/main.scss';
-
 const Index = () => (
   <div>
     <h1>
@@ -9,7 +6,6 @@ const Index = () => (
     <div>
       This is my portfolio
     </div>
-    <ProjectList />
   </div>
 );
 export default Index;
