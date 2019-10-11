@@ -1,4 +1,5 @@
 import ProjectList from '../components/ProjectList';
+import '../scss/main.scss';
 
 const Index = () => (
   <div>
