@@ -1,11 +1,3 @@
-body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.bg-light {
-  background: #fff !important;
-}
-
-.navbar-light .navbar-brand {
-  color: #003366;
-}
+@import './base/settings';
+@import './base/base';
+@import './components/Layout/layout';
