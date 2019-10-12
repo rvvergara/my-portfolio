@@ -1,0 +1,10 @@
+.navbar-light .navbar-nav .nav-link {
+  color: $main-blue;
+  font-size: 1.125rem;
+  margin: 0 1rem;
+
+  .active {
+    font-weight: 700;
+    color: $main-blue;
+  }
+}

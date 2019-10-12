@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 const MainNav = ({ activeKey }) => (
   <Navbar.Collapse id="basic-navbar-nav">
-    <Nav className="justify-content-end" activeKey={activeKey}>
+    <Nav className="ml-auto" activeKey={activeKey}>
       <Nav.Item>
         <Link href="/">
           <Nav.Link href="/">Home</Nav.Link>

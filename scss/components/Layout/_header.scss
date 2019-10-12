@@ -2,4 +2,10 @@
 
 .navbar-light .navbar-brand {
   color: $main-blue;
+  font-size: $xlarge;
+  font-weight: 700;
+
+  .subtitle {
+    font-size: $medium;
+  }
 }

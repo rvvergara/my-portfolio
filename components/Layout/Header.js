@@ -12,6 +12,8 @@ const Header = ({ activeKey }) => (
       <Link href="/">
         <Navbar.Brand href="/">
             Ryan Vergara
+          {' '}
+          <span className="subtitle">Fullstack Developer</span>
         </Navbar.Brand>
       </Link>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
