@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import Head from 'next/head';
 import Container from 'react-bootstrap/Container';
 import Header from './Header';
@@ -16,5 +17,10 @@ const Layout = ({ title, children }) => (
     </Container>
   </div>
 );
+
+Layout.propTypes = {
+  title: PropTypes.string.isRequired,
+  children: PropTypes.instanceOf(Object).isRequired,
+};
 
 export default Layout;
