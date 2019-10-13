@@ -15,6 +15,16 @@ const MainNav = ({ activeKey }) => (
           <Nav.Link href="/projects">Projects</Nav.Link>
         </Link>
       </Nav.Item>
+      <Nav.Item>
+        <Link href="/articles">
+          <Nav.Link href="/articles">Articles</Nav.Link>
+        </Link>
+      </Nav.Item>
+      <Nav.Item>
+        <Link href="/contact">
+          <Nav.Link href="/contact">Contact</Nav.Link>
+        </Link>
+      </Nav.Item>
     </Nav>
   </Navbar.Collapse>
 );
