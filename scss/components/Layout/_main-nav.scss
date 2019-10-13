@@ -3,6 +3,12 @@
   font-size: 1.125rem;
   margin: 0 1rem;
 
+  &:hover {
+    color: $main-blue;
+    opacity: 0.8;
+    text-decoration: underline;
+  }
+
   .active {
     font-weight: 700;
     color: $main-blue;

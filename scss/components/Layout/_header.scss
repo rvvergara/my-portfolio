@@ -11,6 +11,10 @@
   padding-top: 0;
   padding-bottom: 0;
 
+  &:hover {
+    color: $main-blue;
+  }
+
   .subtitle {
     font-size: $medium;
   }
