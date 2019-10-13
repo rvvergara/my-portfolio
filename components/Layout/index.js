@@ -2,6 +2,7 @@ import PropTypes from 'prop-types';
 import Head from 'next/head';
 import Container from 'react-bootstrap/Container';
 import Header from './Header';
+import Footer from './Footer';
 import '../../scss/main.scss';
 
 const Layout = ({ title, children }) => (
@@ -15,6 +16,7 @@ const Layout = ({ title, children }) => (
     <Container>
       { children }
     </Container>
+    <Footer />
   </div>
 );
 
