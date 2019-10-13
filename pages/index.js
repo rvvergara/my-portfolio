@@ -1,11 +1,10 @@
+import Layout from '../components/Layout';
+
 const Index = () => (
-  <div>
+  <Layout title="Home" activeKey="/">
     <h1>
-      RyanV
+      My Portfolio
     </h1>
-    <div>
-      This is my portfolio
-    </div>
-  </div>
+  </Layout>
 );
 export default Index;

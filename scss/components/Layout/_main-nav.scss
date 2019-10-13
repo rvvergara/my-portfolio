@@ -1,0 +1,42 @@
+.navbar-light .navbar-nav .nav-link {
+  color: $main-blue;
+  font-size: 1.125rem;
+  margin: 0 1rem;
+
+  &:hover {
+    color: $main-blue;
+    opacity: 0.8;
+    text-decoration: underline;
+  }
+
+  .active {
+    font-weight: 700;
+    color: $main-blue;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .navbar-toggler.collapsed {
+    padding: 5px;
+  }
+
+  .navbar-toggler-icon {
+    background-size: 70%;
+  }
+}
+
+@media only screen and (max-width:991px) {
+  .navbar-light .navbar-nav {
+    width: 60%;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 2vw;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar-light .navbar-nav .nav-link {
+    font-size: $xsmall;
+  }
+}
