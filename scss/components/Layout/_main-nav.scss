@@ -9,7 +9,7 @@
   }
 }
 
-@media only screen and (max-width: 543px) {
+@media only screen and (max-width: 575px) {
   .navbar-toggler.collapsed {
     padding: 5px;
   }
@@ -17,5 +17,20 @@
   .navbar-toggler-icon {
     background-size: 70%;
   }
+}
 
+@media only screen and (max-width:991px) {
+  .navbar-light .navbar-nav {
+    width: 60%;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 2vw;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar-light .navbar-nav .nav-link {
+    font-size: $xsmall;
+  }
 }
