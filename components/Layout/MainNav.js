@@ -1,10 +1,11 @@
+import { useRouter } from 'next/router';
 import Link from 'next/link';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
-const MainNav = ({ activeKey }) => (
+const MainNav = () => (
   <Navbar.Collapse id="basic-navbar-nav">
-    <Nav className="ml-auto" activeKey={activeKey}>
+    <Nav className="ml-auto" activeKey={useRouter().pathname}>
       <Nav.Item>
         <Link href="/">
           <Nav.Link href="/">Home</Nav.Link>

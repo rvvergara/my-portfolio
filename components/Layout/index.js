@@ -3,14 +3,14 @@ import Container from 'react-bootstrap/Container';
 import Header from './Header';
 import '../../scss/main.scss';
 
-const Layout = ({ title, children, activeKey }) => (
+const Layout = ({ title, children }) => (
   <div>
     <Head>
       <title>
         { title }
       </title>
     </Head>
-    <Header activeKey={activeKey} />
+    <Header />
     <Container>
       { children }
     </Container>

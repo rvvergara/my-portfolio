@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row';
 import Navbar from 'react-bootstrap/Navbar';
 import MainNav from './MainNav';
 
-const Header = ({ activeKey }) => (
+const Header = () => (
   <Navbar
     bg="light"
     expand="lg"
@@ -24,7 +24,7 @@ const Header = ({ activeKey }) => (
         </Navbar.Brand>
       </Link>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <MainNav activeKey={activeKey} />
+      <MainNav />
     </Container>
   </Navbar>
 );
