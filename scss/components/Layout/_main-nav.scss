@@ -8,3 +8,14 @@
     color: $main-blue;
   }
 }
+
+@media only screen and (max-width: 543px) {
+  .navbar-toggler.collapsed {
+    padding: 5px;
+  }
+
+  .navbar-toggler-icon {
+    background-size: 70%;
+  }
+
+}
