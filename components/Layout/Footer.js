@@ -20,7 +20,7 @@ const Footer = () => (
           </Row>
         </Col>
         <Col className="copyright">
-          2019 Ryan Vergara
+          &copy; 2019 Ryan Vergara
         </Col>
       </Row>
     </Container>
