@@ -8,8 +8,8 @@
     "dev": "next -p 8080",
     "build": "next build",
     "start": "next start -p $PORT",
-    "heroku-postbuild": "yarn build",
-    "export": "yarn build && next export"
+    "heroku-postbuild": "npm run build",
+    "export": "npm run build && next export"
   },
   "repository": {
     "type": "git",
