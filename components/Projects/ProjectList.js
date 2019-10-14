@@ -1,21 +1,45 @@
-import { useReducer } from 'react';
+import { useReducer, useState } from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Project from './Project';
+import ProjectModal from './ProjectModal';
 import projectReducer from '../../reducers/project';
 import projects from '../../data/projects';
 
 const ProjectList = () => {
+  const [isShown, setIsShown] = useState(false);
   const [projectShown, dispatch] = useReducer(projectReducer, null);
-  console.log(projectShown);
+
+  const handleShow = () => setIsShown(true);
+  const handleClose = () => {
+    dispatch({
+      type: 'SET_PROJECT',
+      project: null,
+    });
+    setIsShown(false);
+  };
+
   return (
-    <Row>
-      {projects.map(project => (
-        <Col key={project.id} lg={4}>
-          <Project project={project} dispatch={dispatch} />
-        </Col>
-      ))}
-    </Row>
+    <div>
+      {projectShown && (
+      <ProjectModal
+        projectShown={projectShown}
+        handleClose={handleClose}
+        isShown={isShown}
+      />
+      )}
+      <Row>
+        {projects.map(project => (
+          <Col key={project.id} lg={4}>
+            <Project
+              project={project}
+              dispatch={dispatch}
+              handleShow={handleShow}
+            />
+          </Col>
+        ))}
+      </Row>
+    </div>
   );
 };
 
