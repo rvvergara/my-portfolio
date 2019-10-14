@@ -27,14 +27,19 @@ const ProjectModal = ({ projectShown, handleClose, isShown }) => (
         <Col lg={8}>
           <ProjectGallery screenshots={projectShown.screenshots} />
         </Col>
-        <Col lg={4}>
+        <Col lg={4} className="project-tech">
           <ProjectTech projectShown={projectShown} />
         </Col>
       </Row>
       <Row className="project-description">
-        {
-            converter.convert(projectShown.description)
-          }
+        <div className="description-title">
+          <strong>Description</strong>
+        </div>
+        <div className="description-body">
+          {
+              converter.convert(projectShown.description)
+            }
+        </div>
       </Row>
     </Modal.Body>
   </Modal>

@@ -1,5 +1,10 @@
 @import "~react-image-gallery/styles/scss/image-gallery.scss";
 
+.modal-title {
+  color: $main-blue;
+  margin-left: $side-pad;
+}
+
 .fade.modal.show {
   padding-left: 0 !important;
 }
@@ -19,5 +24,21 @@
 
 .project-description {
   margin: 0 auto;
-  width: 60%;
+  padding-top: $side-pad;
+  width: 80%;
+
+  @media screen and (max-width: 991px) {
+    padding-top: 0;
+  }
+}
+
+.project-tech {
+  @media screen and (max-width: 991px) {
+    padding-top: $side-pad;
+  }
+}
+
+p,
+li {
+  font-size: $xsmall;
 }

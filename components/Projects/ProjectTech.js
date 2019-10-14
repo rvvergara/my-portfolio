@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 const ProjectTech = ({ projectShown }) => (
   <div>
-    <h4>Technologies Used:</h4>
+    <strong>Technologies Used:</strong>
     <ul>
       {
         projectShown.technologies.map(tech => (

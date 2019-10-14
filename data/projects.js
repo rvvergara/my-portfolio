@@ -5,11 +5,11 @@ export default [
     subtitle: 'A Facebook Clone Written on Rails',
     repository: 'httpss://github.com/rvvergara/facialbook',
     demoLink: 'httpss://facials.herokuapp.com/',
-    technologies: ['ruby', 'ruby on rails', 'jquery', 'bootstrap'],
+    technologies: ['Ruby', 'Ruby On Rails', 'JQuery', 'Bootstrap'],
     description: `
       <p>In this project, I and my coding partner used Ruby on Rails to clone Facebook.</p>
       <p>The app was built on pure Rails. With jQuery some of the button effects were created.</p>
-      <h3>Features</h3>
+      <strong>Features</strong>
       <ol>
         <li>User signup and signin (with Remember Me) and creation of Profile (with Profile picture uploading)</li>
         <li>Sending, Accepting, Cancelling and Deleting (Rejecting) Friend Requests
@@ -65,11 +65,11 @@ export default [
     subtitle: 'Written in NextJS with Redux and JWT Authentication',
     repository: 'httpss://github.com/rvvergara/bookstore-cms-next-app',
     demoLink: 'httpss://bookstore-cms-next-app.herokuapp.com',
-    technologies: ['next js', 'react', 'redux', 'jest', 'sass'],
+    technologies: ['NextJS', 'React', 'Redux', 'Jest', 'SASS'],
     description: `
       <p>A Simple Books content-management-system built using NextJS and Redux</p>
       <p>Connects to a backend Rails JSON API for data reading and writing.</p>
-      <h3>Features</h3>
+      <strong>Features</strong>
       <ol>
         <li>User signup and signin (utilizes JSON Web Token)</li>
         <li>User can either be a regular user or an admin user</li>
@@ -120,10 +120,10 @@ export default [
     subtitle: 'Classic Strategy Board Game recreated using plain vanilla JavaScript',
     repository: 'httpss://github.com/rvvergara/battleship',
     demoLink: 'httpss://ryto-battleship-game.netlify.com/',
-    technologies: ['javascript', 'jest', 'webpack'],
+    technologies: ['JavaScript', 'Jest', 'Webpack'],
     description: `
     <p>This project utilizes the factory and module architecture pattern. This is also the first project where I showcase my Jest skills.</p>
-    <h3>Features:</h3>
+    <strong>Features:</strong>
     <ol>
       <li>User plays against an artificial intelligence</li>
       <li>User can drag and drop his/her ships to desired position and orientation.</li>
@@ -152,12 +152,12 @@ export default [
     id: 4,
     title: 'Flight Booker',
     subtitle: 'A simple app to book flights built with Rails',
-    technologies: ['ruby', 'ruby on rails', 'postgresql', 'bootstrap', 'rspec'],
+    technologies: ['Ruby', 'Ruby On Rails', 'PostgreSQL', 'Bootstrap', 'RSpec'],
     repository: 'httpss://github.com/rvvergara/flight-booker',
     demoLink: 'httpss://flight-booker-121618.herokuapp.com/',
     description: `
       <p>This rails app is a simple showcase of utilizing the power of Rails forms.</p>
-      <h3>Features:</h3>
+      <strong>Features:</strong>
       <ol>
         <li>Users can search flights based on departure and arrival airports and flight dates.</li>
         <li>Users can select flights based on search results.</li>
@@ -192,12 +192,12 @@ export default [
     id: 5,
     title: 'React Calculator',
     subtitle: 'A simple calculator app built with React',
-    technologies: ['react', 'sass', 'javascript', 'flexbox'],
+    technologies: ['React', 'SASS', 'JavaScript', 'Flexbox'],
     repository: 'httpss://github.com/rvvergara/react-calculator',
     demoLink: 'httpss://ryto-react-calculator.netlify.com/',
     description: `
     <p>In this react app, I showcased basic usage of React hooks as well as fundamental mathematical logic building.</p>
-    <h3>Features</h3>
+    <strong>Features</strong>
     <ol>
       <li>All basic arithmetic operations</li>
       <li>Error message when division by zero is attempted</li>
