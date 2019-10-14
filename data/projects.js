@@ -28,32 +28,32 @@ export default [
     `,
     screenshots: [
       {
-        photo: 'https://tinyimg.io/i/lej8jW1.png',
+        original: 'https://tinyimg.io/i/lej8jW1.png',
         thumbnail: 'https://tinyimg.io/i/lej8jW1.png',
         caption: 'Homepage for visitors',
       },
       {
-        photo: 'https://tinyimg.io/i/ejAbYVz.png',
+        original: 'https://tinyimg.io/i/ejAbYVz.png',
         thumbnail: 'https://tinyimg.io/i/ejAbYVz.png',
         caption: 'Sign up page',
       },
       {
-        photo: 'https://tinyimg.io/i/1JpQqAQ.png',
+        original: 'https://tinyimg.io/i/1JpQqAQ.png',
         thumbnail: 'https://tinyimg.io/i/1JpQqAQ.png',
         caption: 'User newsfeed',
       },
       {
-        photo: 'https://tinyimg.io/i/vasZvJJ.png',
+        original: 'https://tinyimg.io/i/vasZvJJ.png',
         thumbnail: 'https://tinyimg.io/i/vasZvJJ.png',
         caption: 'User making a post',
       },
       {
-        photo: 'https://tinyimg.io/i/YhQUQdL.png',
+        original: 'https://tinyimg.io/i/YhQUQdL.png',
         thumbnail: 'https://tinyimg.io/i/YhQUQdL.png',
         caption: 'User profile page',
       },
       {
-        photo: 'https://tinyimg.io/i/iUsuM4i.png',
+        original: 'https://tinyimg.io/i/iUsuM4i.png',
         thumbnail: 'https://tinyimg.io/i/iUsuM4i.png',
         caption: 'User friends list page',
       },
@@ -83,32 +83,32 @@ export default [
     `,
     screenshots: [
       {
-        photo: 'https://tinyimg.io/i/74fQfGQ.png',
+        original: 'https://tinyimg.io/i/74fQfGQ.png',
         thumbnail: 'https://tinyimg.io/i/74fQfGQ.png',
         caption: 'Login page',
       },
       {
-        photo: 'https://tinyimg.io/i/mRSiOCF.png',
+        original: 'https://tinyimg.io/i/mRSiOCF.png',
         thumbnail: 'https://tinyimg.io/i/mRSiOCF.png',
         caption: 'Sign up page',
       },
       {
-        photo: 'https://tinyimg.io/i/hyFbvnR.png',
+        original: 'https://tinyimg.io/i/hyFbvnR.png',
         thumbnail: 'https://tinyimg.io/i/hyFbvnR.png',
         caption: 'Collection page',
       },
       {
-        photo: 'https://tinyimg.io/i/ALEFczR.png',
+        original: 'https://tinyimg.io/i/ALEFczR.png',
         thumbnail: 'https://tinyimg.io/i/ALEFczR.png',
         caption: 'Updating currently read page',
       },
       {
-        photo: 'https://tinyimg.io/i/LJqjq64.png',
+        original: 'https://tinyimg.io/i/LJqjq64.png',
         thumbnail: 'https://tinyimg.io/i/LJqjq64.png',
         caption: 'User management page for admins',
       },
       {
-        photo: 'https://tinyimg.io/i/7aFNdnF.png',
+        original: 'https://tinyimg.io/i/7aFNdnF.png',
         thumbnail: 'https://tinyimg.io/i/7aFNdnF.png',
         caption: 'Book search results page',
       },
@@ -132,17 +132,17 @@ export default [
     `,
     screenshots: [
       {
-        photo: 'https://tinyimg.io/i/hG4YbJt.png',
+        original: 'https://tinyimg.io/i/hG4YbJt.png',
         thumbnail: 'https://tinyimg.io/i/hG4YbJt.png',
         caption: 'Left side is user board, right side is the AI board',
       },
       {
-        photo: 'https://tinyimg.io/i/kMSSWI7.png',
+        original: 'https://tinyimg.io/i/kMSSWI7.png',
         thumbnail: 'https://tinyimg.io/i/kMSSWI7.png',
         caption: 'Ships turn red when hit',
       },
       {
-        photo: 'https://tinyimg.io/i/PgMdbp9.png',
+        original: 'https://tinyimg.io/i/PgMdbp9.png',
         thumbnail: 'https://tinyimg.io/i/PgMdbp9.png',
         caption: 'Computer beats you',
       },
@@ -167,22 +167,22 @@ export default [
     `,
     screenshots: [
       {
-        photo: 'https://tinyimg.io/i/PUwQpsC.png',
+        original: 'https://tinyimg.io/i/PUwQpsC.png',
         thumbnail: 'https://tinyimg.io/i/PUwQpsC.png',
         caption: 'Homepage',
       },
       {
-        photo: 'https://tinyimg.io/i/GfvCbSq.png',
+        original: 'https://tinyimg.io/i/GfvCbSq.png',
         thumbnail: 'https://tinyimg.io/i/GfvCbSq.png',
         caption: 'User can select which flight to book',
       },
       {
-        photo: 'https://tinyimg.io/i/ZAe05RN.png',
+        original: 'https://tinyimg.io/i/ZAe05RN.png',
         thumbnail: 'https://tinyimg.io/i/ZAe05RN.png',
         caption: 'User then fills out his/her details in the booking form',
       },
       {
-        photo: 'https://tinyimg.io/i/7cvVxWb.png',
+        original: 'https://tinyimg.io/i/7cvVxWb.png',
         thumbnail: 'https://tinyimg.io/i/7cvVxWb.png',
         caption: 'User gets confirmation receipt for the booking',
       },
@@ -206,17 +206,17 @@ export default [
     `,
     screenshots: [
       {
-        photo: 'https://tinyimg.io/i/fwhA9L1.png',
+        original: 'https://tinyimg.io/i/fwhA9L1.png',
         thumbnail: 'https://tinyimg.io/i/fwhA9L1.png',
         caption: 'Clean design',
       },
       {
-        photo: 'https://tinyimg.io/i/NCqT9bX.png',
+        original: 'https://tinyimg.io/i/NCqT9bX.png',
         thumbnail: 'https://tinyimg.io/i/NCqT9bX.png',
         caption: 'Screen shows what operation is happening',
       },
       {
-        photo: 'https://tinyimg.io/i/Eksfa9n.png',
+        original: 'https://tinyimg.io/i/Eksfa9n.png',
         thumbnail: 'https://tinyimg.io/i/Eksfa9n.png',
         caption: 'Shows an error message on screen when division by zero is attempted',
       },

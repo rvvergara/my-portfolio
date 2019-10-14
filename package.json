@@ -37,10 +37,10 @@
     "next-images": "^1.2.0",
     "node-sass": "^4.12.0",
     "react": "^16.10.1",
-    "react-amazon-gallery": "^0.3.0",
     "react-bootstrap": "^1.0.0-beta.14",
     "react-dom": "^16.10.1",
-    "react-html-converter": "^0.3.2"
+    "react-html-converter": "^0.3.2",
+    "react-image-gallery": "^0.9.1"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",

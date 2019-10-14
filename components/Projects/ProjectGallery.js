@@ -1,17 +1,13 @@
 import PropTypes from 'prop-types';
-import Gallery from 'react-amazon-gallery';
+import Gallery from 'react-image-gallery';
 
-const ProjectGallery = ({ screenshots }) => {
-  const images = screenshots.map(screenshot => screenshot.photo);
-
-  return (
-    <Gallery
-      images={images}
-      width={600}
-      height={300}
-    />
-  );
-};
+const ProjectGallery = ({ screenshots }) => (
+  <Gallery
+    items={screenshots}
+    sizes={5}
+    slideOnThumbnailHover
+  />
+);
 
 
 ProjectGallery.propTypes = {
