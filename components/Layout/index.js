@@ -10,6 +10,8 @@ const Layout = ({ title, children }) => (
     <Head>
       <title>
         { title }
+        {' '}
+  | Ryan Vergara - FullStack Developer
       </title>
     </Head>
     <Header />
