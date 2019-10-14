@@ -5,7 +5,7 @@ export default [
     subtitle: 'A Facebook Clone Written on Rails',
     repository: 'https://github.com/rvvergara/facialbook',
     demoLink: 'https://facials.herokuapp.com/',
-    technologies: ['Ruby', 'Ruby On Rails', 'JQuery', 'Bootstrap'],
+    technologies: ['Ruby', 'Ruby On Rails', 'JQuery', 'Bootstrap', 'PostgreSQL'],
     description: `
       <p>In this project, I and my coding partner used Ruby on Rails to clone Facebook.</p>
       <p>The app was built on pure Rails. With jQuery some of the button effects were created.</p>
@@ -65,7 +65,7 @@ export default [
     subtitle: 'Written in NextJS with Redux and JWT Authentication',
     repository: 'https://github.com/rvvergara/bookstore-cms-next-app',
     demoLink: 'https://bookstore-cms-next-app.herokuapp.com',
-    technologies: ['NextJS', 'React', 'Redux', 'Jest', 'SASS'],
+    technologies: ['NextJS', 'React', 'Redux', 'Jest', 'JSON Web Token', 'SASS'],
     description: `
       <p>A Simple Books content-management-system built using NextJS and Redux</p>
       <p>Connects to a backend Rails JSON API for data reading and writing.</p>

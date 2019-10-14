@@ -10,6 +10,7 @@
   font-weight: 700;
   padding-top: 0;
   padding-bottom: 0;
+  text-shadow: lighten(#999999, 0.5) 0.5px 1px 1px;
 
   &:hover {
     color: $main-blue;
