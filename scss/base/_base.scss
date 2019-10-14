@@ -5,3 +5,9 @@ body {
 #main-container {
   padding-top: 100px;
 }
+
+.page-title {
+  color: $main-blue;
+  font-weight: 700;
+  text-shadow: $gray 0.5px 0.5px;
+}

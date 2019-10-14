@@ -21,7 +21,7 @@ const ProjectList = () => {
 
   return (
     <div>
-      <h2>Projects</h2>
+      <h2 className="page-title">Projects</h2>
       {projectShown && (
       <ProjectModal
         projectShown={projectShown}

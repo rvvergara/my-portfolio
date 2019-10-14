@@ -2,4 +2,27 @@
 
 #projects {
   margin: 0 auto;
+  padding-top: 2rem;
+}
+
+.project-card {
+  box-shadow: 1px 1px 0.5px $shadow-color;
+  transition: 0.5s;
+
+  &:hover {
+    cursor: pointer;
+    transform: translate(-1px, -5px);
+    box-shadow: $main-blue 5px 5px 5px;
+  }
+
+  @media screen and (max-width: 991px) {
+    margin-bottom: $small;
+  }
+}
+
+.card-title {
+  background: $main-blue;
+  color: $white;
+  margin-bottom: 0;
+  text-align: center;
 }

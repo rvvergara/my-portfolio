@@ -11,9 +11,9 @@ const Project = ({ project, dispatch, handleShow }) => {
   };
 
   return (
-    <Card onClick={setProjectShown}>
-      <Card.Img variant="top" src={project.screenshots[0].original} />
+    <Card onClick={setProjectShown} className="project-card">
       <Card.Title>{project.title}</Card.Title>
+      <Card.Img variant="top" src={project.screenshots[0].original} />
     </Card>
   );
 };
