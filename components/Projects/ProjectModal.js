@@ -3,6 +3,7 @@ import { ReactHTMLConverter } from 'react-html-converter/node';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Modal from 'react-bootstrap/Modal';
+import { FaGithub, FaLink } from 'react-icons/fa';
 import ProjectGallery from './ProjectGallery';
 import ProjectTech from './ProjectTech';
 
@@ -28,6 +29,13 @@ const ProjectModal = ({ projectShown, handleClose, isShown }) => (
           <ProjectGallery screenshots={projectShown.screenshots} />
         </Col>
         <Col lg={4} className="project-tech">
+          <span className="project-links">
+            <a href={projectShown.repository} title="Repository" target="blank"><FaGithub /></a>
+          </span>
+          {'  '}
+          <span className="project-links">
+            <a href={projectShown.demoLink} title="Live Demo" target="blank"><FaLink /></a>
+          </span>
           <ProjectTech projectShown={projectShown} />
         </Col>
       </Row>

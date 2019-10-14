@@ -3,8 +3,8 @@ export default [
     id: 1,
     title: 'FacialBook',
     subtitle: 'A Facebook Clone Written on Rails',
-    repository: 'httpss://github.com/rvvergara/facialbook',
-    demoLink: 'httpss://facials.herokuapp.com/',
+    repository: 'https://github.com/rvvergara/facialbook',
+    demoLink: 'https://facials.herokuapp.com/',
     technologies: ['Ruby', 'Ruby On Rails', 'JQuery', 'Bootstrap'],
     description: `
       <p>In this project, I and my coding partner used Ruby on Rails to clone Facebook.</p>
@@ -63,8 +63,8 @@ export default [
     id: 2,
     title: 'Bookstore CMS Next App',
     subtitle: 'Written in NextJS with Redux and JWT Authentication',
-    repository: 'httpss://github.com/rvvergara/bookstore-cms-next-app',
-    demoLink: 'httpss://bookstore-cms-next-app.herokuapp.com',
+    repository: 'https://github.com/rvvergara/bookstore-cms-next-app',
+    demoLink: 'https://bookstore-cms-next-app.herokuapp.com',
     technologies: ['NextJS', 'React', 'Redux', 'Jest', 'SASS'],
     description: `
       <p>A Simple Books content-management-system built using NextJS and Redux</p>
@@ -118,8 +118,8 @@ export default [
     id: 3,
     title: 'Battleship',
     subtitle: 'Classic Strategy Board Game recreated using plain vanilla JavaScript',
-    repository: 'httpss://github.com/rvvergara/battleship',
-    demoLink: 'httpss://ryto-battleship-game.netlify.com/',
+    repository: 'https://github.com/rvvergara/battleship',
+    demoLink: 'https://ryto-battleship-game.netlify.com/',
     technologies: ['JavaScript', 'Jest', 'Webpack'],
     description: `
     <p>This project utilizes the factory and module architecture pattern. This is also the first project where I showcase my Jest skills.</p>
@@ -153,8 +153,8 @@ export default [
     title: 'Flight Booker',
     subtitle: 'A simple app to book flights built with Rails',
     technologies: ['Ruby', 'Ruby On Rails', 'PostgreSQL', 'Bootstrap', 'RSpec'],
-    repository: 'httpss://github.com/rvvergara/flight-booker',
-    demoLink: 'httpss://flight-booker-121618.herokuapp.com/',
+    repository: 'https://github.com/rvvergara/flight-booker',
+    demoLink: 'https://flight-booker-121618.herokuapp.com/',
     description: `
       <p>This rails app is a simple showcase of utilizing the power of Rails forms.</p>
       <strong>Features:</strong>
@@ -193,8 +193,8 @@ export default [
     title: 'React Calculator',
     subtitle: 'A simple calculator app built with React',
     technologies: ['React', 'SASS', 'JavaScript', 'Flexbox'],
-    repository: 'httpss://github.com/rvvergara/react-calculator',
-    demoLink: 'httpss://ryto-react-calculator.netlify.com/',
+    repository: 'https://github.com/rvvergara/react-calculator',
+    demoLink: 'https://ryto-react-calculator.netlify.com/',
     description: `
     <p>In this react app, I showcased basic usage of React hooks as well as fundamental mathematical logic building.</p>
     <strong>Features</strong>
