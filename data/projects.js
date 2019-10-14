@@ -3,8 +3,8 @@ export default [
     id: 1,
     title: 'FacialBook',
     subtitle: 'A Facebook Clone Written on Rails',
-    repository: 'https://github.com/rvvergara/facialbook',
-    demoLink: 'https://facials.herokuapp.com/',
+    repository: 'httpss://github.com/rvvergara/facialbook',
+    demoLink: 'httpss://facials.herokuapp.com/',
     technologies: ['ruby', 'ruby on rails', 'jquery', 'bootstrap'],
     description: `
       <p>In this project, I and my coding partner used Ruby on Rails to clone Facebook.</p>
@@ -28,33 +28,33 @@ export default [
     `,
     screenshots: [
       {
-        photo: 'http://tinyimg.io/i/lej8jW1.png',
-        thumbnail: 'http://tinyimg.io/i/lej8jW1.png',
+        photo: 'https://tinyimg.io/i/lej8jW1.png',
+        thumbnail: 'https://tinyimg.io/i/lej8jW1.png',
         caption: 'Homepage for visitors',
       },
       {
-        photo: 'http://tinyimg.io/i/ejAbYVz.png',
-        thumbnail: 'http://tinyimg.io/i/ejAbYVz.png',
+        photo: 'https://tinyimg.io/i/ejAbYVz.png',
+        thumbnail: 'https://tinyimg.io/i/ejAbYVz.png',
         caption: 'Sign up page',
       },
       {
-        photo: 'http://tinyimg.io/i/1JpQqAQ.png',
-        thumbnail: 'http://tinyimg.io/i/1JpQqAQ.png',
+        photo: 'https://tinyimg.io/i/1JpQqAQ.png',
+        thumbnail: 'https://tinyimg.io/i/1JpQqAQ.png',
         caption: 'User newsfeed',
       },
       {
-        photo: 'http://tinyimg.io/i/vasZvJJ.png',
-        thumbnail: 'http://tinyimg.io/i/vasZvJJ.png',
+        photo: 'https://tinyimg.io/i/vasZvJJ.png',
+        thumbnail: 'https://tinyimg.io/i/vasZvJJ.png',
         caption: 'User making a post',
       },
       {
-        photo: 'http://tinyimg.io/i/YhQUQdL.png',
-        thumbnail: 'http://tinyimg.io/i/YhQUQdL.png',
+        photo: 'https://tinyimg.io/i/YhQUQdL.png',
+        thumbnail: 'https://tinyimg.io/i/YhQUQdL.png',
         caption: 'User profile page',
       },
       {
-        photo: 'http://tinyimg.io/i/iUsuM4i.png',
-        thumbnail: 'http://tinyimg.io/i/iUsuM4i.png',
+        photo: 'https://tinyimg.io/i/iUsuM4i.png',
+        thumbnail: 'https://tinyimg.io/i/iUsuM4i.png',
         caption: 'User friends list page',
       },
     ],
@@ -63,8 +63,8 @@ export default [
     id: 2,
     title: 'Bookstore CMS Next App',
     subtitle: 'Written in NextJS with Redux and JWT Authentication',
-    repository: 'https://github.com/rvvergara/bookstore-cms-next-app',
-    demoLink: 'https://bookstore-cms-next-app.herokuapp.com',
+    repository: 'httpss://github.com/rvvergara/bookstore-cms-next-app',
+    demoLink: 'httpss://bookstore-cms-next-app.herokuapp.com',
     technologies: ['next js', 'react', 'redux', 'jest', 'sass'],
     description: `
       <p>A Simple Books content-management-system built using NextJS and Redux</p>
@@ -83,33 +83,33 @@ export default [
     `,
     screenshots: [
       {
-        photo: 'http://tinyimg.io/i/74fQfGQ.png',
-        thumbnail: 'http://tinyimg.io/i/74fQfGQ.png',
+        photo: 'https://tinyimg.io/i/74fQfGQ.png',
+        thumbnail: 'https://tinyimg.io/i/74fQfGQ.png',
         caption: 'Login page',
       },
       {
-        photo: 'http://tinyimg.io/i/mRSiOCF.png',
-        thumbnail: 'http://tinyimg.io/i/mRSiOCF.png',
+        photo: 'https://tinyimg.io/i/mRSiOCF.png',
+        thumbnail: 'https://tinyimg.io/i/mRSiOCF.png',
         caption: 'Sign up page',
       },
       {
-        photo: 'http://tinyimg.io/i/hyFbvnR.png',
-        thumbnail: 'http://tinyimg.io/i/hyFbvnR.png',
+        photo: 'https://tinyimg.io/i/hyFbvnR.png',
+        thumbnail: 'https://tinyimg.io/i/hyFbvnR.png',
         caption: 'Collection page',
       },
       {
-        photo: 'http://tinyimg.io/i/ALEFczR.png',
-        thumbnail: 'http://tinyimg.io/i/ALEFczR.png',
+        photo: 'https://tinyimg.io/i/ALEFczR.png',
+        thumbnail: 'https://tinyimg.io/i/ALEFczR.png',
         caption: 'Updating currently read page',
       },
       {
-        photo: 'http://tinyimg.io/i/LJqjq64.png',
-        thumbnail: 'http://tinyimg.io/i/LJqjq64.png',
+        photo: 'https://tinyimg.io/i/LJqjq64.png',
+        thumbnail: 'https://tinyimg.io/i/LJqjq64.png',
         caption: 'User management page for admins',
       },
       {
-        photo: 'http://tinyimg.io/i/7aFNdnF.png',
-        thumbnail: 'http://tinyimg.io/i/7aFNdnF.png',
+        photo: 'https://tinyimg.io/i/7aFNdnF.png',
+        thumbnail: 'https://tinyimg.io/i/7aFNdnF.png',
         caption: 'Book search results page',
       },
     ],
@@ -118,8 +118,8 @@ export default [
     id: 3,
     title: 'Battleship',
     subtitle: 'Classic Strategy Board Game recreated using plain vanilla JavaScript',
-    repository: 'https://github.com/rvvergara/battleship',
-    demoLink: 'https://ryto-battleship-game.netlify.com/',
+    repository: 'httpss://github.com/rvvergara/battleship',
+    demoLink: 'httpss://ryto-battleship-game.netlify.com/',
     technologies: ['javascript', 'jest', 'webpack'],
     description: `
     <p>This project utilizes the factory and module architecture pattern. This is also the first project where I showcase my Jest skills.</p>
@@ -132,18 +132,18 @@ export default [
     `,
     screenshots: [
       {
-        photo: 'http://tinyimg.io/i/hG4YbJt.png',
-        thumbnail: 'http://tinyimg.io/i/hG4YbJt.png',
+        photo: 'https://tinyimg.io/i/hG4YbJt.png',
+        thumbnail: 'https://tinyimg.io/i/hG4YbJt.png',
         caption: 'Left side is user board, right side is the AI board',
       },
       {
-        photo: 'http://tinyimg.io/i/kMSSWI7.png',
-        thumbnail: 'http://tinyimg.io/i/kMSSWI7.png',
+        photo: 'https://tinyimg.io/i/kMSSWI7.png',
+        thumbnail: 'https://tinyimg.io/i/kMSSWI7.png',
         caption: 'Ships turn red when hit',
       },
       {
-        photo: 'http://tinyimg.io/i/PgMdbp9.png',
-        thumbnail: 'http://tinyimg.io/i/PgMdbp9.png',
+        photo: 'https://tinyimg.io/i/PgMdbp9.png',
+        thumbnail: 'https://tinyimg.io/i/PgMdbp9.png',
         caption: 'Computer beats you',
       },
     ],
@@ -153,8 +153,8 @@ export default [
     title: 'Flight Booker',
     subtitle: 'A simple app to book flights built with Rails',
     technologies: ['ruby', 'ruby on rails', 'postgresql', 'bootstrap', 'rspec'],
-    repository: 'https://github.com/rvvergara/flight-booker',
-    demoLink: 'https://flight-booker-121618.herokuapp.com/',
+    repository: 'httpss://github.com/rvvergara/flight-booker',
+    demoLink: 'httpss://flight-booker-121618.herokuapp.com/',
     description: `
       <p>This rails app is a simple showcase of utilizing the power of Rails forms.</p>
       <h3>Features:</h3>
@@ -167,23 +167,23 @@ export default [
     `,
     screenshots: [
       {
-        photo: 'http://tinyimg.io/i/PUwQpsC.png',
-        thumbnail: 'http://tinyimg.io/i/PUwQpsC.png',
+        photo: 'https://tinyimg.io/i/PUwQpsC.png',
+        thumbnail: 'https://tinyimg.io/i/PUwQpsC.png',
         caption: 'Homepage',
       },
       {
-        photo: 'http://tinyimg.io/i/GfvCbSq.png',
-        thumbnail: 'http://tinyimg.io/i/GfvCbSq.png',
+        photo: 'https://tinyimg.io/i/GfvCbSq.png',
+        thumbnail: 'https://tinyimg.io/i/GfvCbSq.png',
         caption: 'User can select which flight to book',
       },
       {
-        photo: 'http://tinyimg.io/i/ZAe05RN.png',
-        thumbnail: 'http://tinyimg.io/i/ZAe05RN.png',
+        photo: 'https://tinyimg.io/i/ZAe05RN.png',
+        thumbnail: 'https://tinyimg.io/i/ZAe05RN.png',
         caption: 'User then fills out his/her details in the booking form',
       },
       {
-        photo: 'http://tinyimg.io/i/7cvVxWb.png',
-        thumbnail: 'http://tinyimg.io/i/7cvVxWb.png',
+        photo: 'https://tinyimg.io/i/7cvVxWb.png',
+        thumbnail: 'https://tinyimg.io/i/7cvVxWb.png',
         caption: 'User gets confirmation receipt for the booking',
       },
     ],
@@ -193,8 +193,8 @@ export default [
     title: 'React Calculator',
     subtitle: 'A simple calculator app built with React',
     technologies: ['react', 'sass', 'javascript', 'flexbox'],
-    repository: 'https://github.com/rvvergara/react-calculator',
-    demoLink: 'https://ryto-react-calculator.netlify.com/',
+    repository: 'httpss://github.com/rvvergara/react-calculator',
+    demoLink: 'httpss://ryto-react-calculator.netlify.com/',
     description: `
     <p>In this react app, I showcased basic usage of React hooks as well as fundamental mathematical logic building.</p>
     <h3>Features</h3>
@@ -206,18 +206,18 @@ export default [
     `,
     screenshots: [
       {
-        photo: 'http://tinyimg.io/i/fwhA9L1.png',
-        thumbnail: 'http://tinyimg.io/i/fwhA9L1.png',
+        photo: 'https://tinyimg.io/i/fwhA9L1.png',
+        thumbnail: 'https://tinyimg.io/i/fwhA9L1.png',
         caption: 'Clean design',
       },
       {
-        photo: 'http://tinyimg.io/i/NCqT9bX.png',
-        thumbnail: 'http://tinyimg.io/i/NCqT9bX.png',
+        photo: 'https://tinyimg.io/i/NCqT9bX.png',
+        thumbnail: 'https://tinyimg.io/i/NCqT9bX.png',
         caption: 'Screen shows what operation is happening',
       },
       {
-        photo: 'http://tinyimg.io/i/Eksfa9n.png',
-        thumbnail: 'http://tinyimg.io/i/Eksfa9n.png',
+        photo: 'https://tinyimg.io/i/Eksfa9n.png',
+        thumbnail: 'https://tinyimg.io/i/Eksfa9n.png',
         caption: 'Shows an error message on screen when division by zero is attempted',
       },
     ],

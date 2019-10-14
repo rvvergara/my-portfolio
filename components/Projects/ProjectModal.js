@@ -1,7 +1,10 @@
 import PropTypes from 'prop-types';
 import { ReactHTMLConverter } from 'react-html-converter/node';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import Modal from 'react-bootstrap/Modal';
 import ProjectGallery from './ProjectGallery';
+import ProjectTech from './ProjectTech';
 
 const Test = ({ text }) => (
   <div>{text}</div>
@@ -20,10 +23,17 @@ const ProjectModal = ({ projectShown, handleClose, isShown }) => (
       <Modal.Title>{projectShown.title}</Modal.Title>
     </Modal.Header>
     <Modal.Body>
-      <ProjectGallery screenshots={projectShown.screenshots} />
+      <Row className="project-showcase">
+        <Col lg={8}>
+          <ProjectGallery screenshots={projectShown.screenshots} />
+        </Col>
+        <Col lg={4}>
+          <ProjectTech projectShown={projectShown} />
+        </Col>
+      </Row>
       {
-        converter.convert(projectShown.description)
-      }
+          converter.convert(projectShown.description)
+        }
     </Modal.Body>
   </Modal>
 );
