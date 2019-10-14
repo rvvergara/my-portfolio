@@ -1,0 +1,51 @@
+@import "~react-image-gallery/styles/scss/image-gallery.scss";
+
+.modal-header {
+  border-bottom: none;
+  box-shadow: 1px 1px 5px $gray;
+}
+
+.modal-title {
+  color: $main-blue;
+  font-weight: 700;
+  margin-left: $side-pad;
+  text-shadow: lighten($gray, 0.5) 1px 1px 2px;
+}
+
+.fade.modal.show {
+  padding-left: 0 !important;
+}
+
+.modal-dialog {
+  max-width: 800px;
+
+  @media screen and (max-width: 899px) {
+    max-width: 700px;
+  }
+}
+
+.project-showcase.row {
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.project-description {
+  margin: 0 auto;
+  padding-top: $side-pad;
+  width: 80%;
+
+  @media screen and (max-width: 991px) {
+    padding-top: 0;
+  }
+}
+
+.project-tech {
+  @media screen and (max-width: 991px) {
+    padding-top: $side-pad;
+  }
+}
+
+p,
+li {
+  font-size: $xsmall;
+}
