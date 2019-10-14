@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 import { ReactHTMLConverter } from 'react-html-converter/node';
 import Modal from 'react-bootstrap/Modal';
+import ProjectGallery from './ProjectGallery';
 
 const Test = ({ text }) => (
   <div>{text}</div>
@@ -19,6 +20,7 @@ const ProjectModal = ({ projectShown, handleClose, isShown }) => (
       <Modal.Title>{projectShown.title}</Modal.Title>
     </Modal.Header>
     <Modal.Body>
+      <ProjectGallery screenshots={projectShown.screenshots} />
       {
         converter.convert(projectShown.description)
       }
