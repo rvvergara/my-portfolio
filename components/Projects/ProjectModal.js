@@ -31,9 +31,11 @@ const ProjectModal = ({ projectShown, handleClose, isShown }) => (
           <ProjectTech projectShown={projectShown} />
         </Col>
       </Row>
-      {
-          converter.convert(projectShown.description)
-        }
+      <Row className="project-description">
+        {
+            converter.convert(projectShown.description)
+          }
+      </Row>
     </Modal.Body>
   </Modal>
 );
