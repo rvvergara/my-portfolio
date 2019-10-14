@@ -1,7 +1,8 @@
 const withSass = require('@zeit/next-sass');
 const withCSS = require('@zeit/next-css');
+const withImages = require('next-images');
 
-module.exports = withCSS(withSass({
+module.exports = withCSS(withSass(withImages({
   webpack(config) {
     config.module.rules.push({
       test: /\.(png|jpg|gif|svg|eot|ttf|woff|woff2)$/,
@@ -18,4 +19,4 @@ module.exports = withCSS(withSass({
   env: {
     API_URL: process.env.API_URL,
   },
-}));
+})));
