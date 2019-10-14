@@ -9,6 +9,7 @@ const Header = () => (
   <Navbar
     bg="light"
     expand="lg"
+    fixed="top"
   >
     <Container>
       <Link href="/">

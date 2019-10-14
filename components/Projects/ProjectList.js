@@ -28,7 +28,7 @@ const ProjectList = () => {
         isShown={isShown}
       />
       )}
-      <Row>
+      <Row id="projects">
         {projects.map(project => (
           <Col key={project.id} lg={4}>
             <Project
