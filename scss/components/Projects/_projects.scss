@@ -8,13 +8,27 @@
 
 .project-card {
   box-shadow: 1px 1px 0.5px $shadow-color;
+  box-sizing: border-box;
   transition: 0.5s;
   margin-bottom: $xlarge;
+  min-height: 200px;
+  padding-top: $xlarge;
 
   &:hover {
+    background: $main-blue;
     cursor: pointer;
-    transform: translate(-1px, -5px);
+    transform: scale(1.05);
+    position: absolute;
+    z-index: 1000;
     box-shadow: $main-blue 5px 5px 5px;
+
+    .card-title {
+      opacity: 1;
+    }
+
+    .card-img-top {
+      opacity: 0.8;
+    }
   }
 
   @media screen and (max-width: 991px) {
@@ -23,8 +37,15 @@
 }
 
 .card-title {
-  background: $main-blue;
   color: $white;
+  font-weight: 700;
   margin-bottom: 0;
+  padding: 0.25rem 0;
+  text-align: center;
+  text-shadow: $gray 0.8px 0.5px 5px;
+  position: absolute;
+  top: 35%;
+  width: 100%;
+  opacity: 0;
   text-align: center;
 }
