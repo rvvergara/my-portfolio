@@ -15,7 +15,7 @@
   padding-top: $xlarge;
 
   &:hover {
-    background: $main-blue;
+    // background: $main-blue;
     cursor: pointer;
     transform: scale(1.05);
     position: absolute;
@@ -27,7 +27,7 @@
     }
 
     .card-img-top {
-      opacity: 0.8;
+      opacity: 0.5;
     }
   }
 
@@ -37,12 +37,12 @@
 }
 
 .card-title {
-  color: $white;
+  color: $main-blue;
   font-weight: 700;
   margin-bottom: 0;
   padding: 0.25rem 0;
   text-align: center;
-  text-shadow: $gray 0.8px 0.5px 5px;
+  text-shadow: $gray 1px 1px 2px;
   position: absolute;
   top: 35%;
   width: 100%;
