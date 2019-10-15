@@ -3,11 +3,13 @@
 #projects {
   margin: 0 auto;
   padding-top: 2rem;
+  margin-bottom: $xlarge;
 }
 
 .project-card {
   box-shadow: 1px 1px 0.5px $shadow-color;
   transition: 0.5s;
+  margin-bottom: $xlarge;
 
   &:hover {
     cursor: pointer;
