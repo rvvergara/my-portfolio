@@ -27,7 +27,7 @@ export default [
     id: 4,
     title: 'How to calculate Binary Tree height with the recursive method',
     link: 'https://www.freecodecamp.org/news/how-to-calculate-binary-tree-height-with-the-recursive-method-aafc461f2201/',
-    pic: 'https://cdn-media-1.freecodecamp.org/images/1*tsVyCA_zXrAh3LqTF4LHxw.png',
+    pic: 'https://tinyimg.io/i/sm56Ud4.jpeg',
     excerpt: 'Previously I wrote about an algorithm for finding out the height of a binary tree using iteration. Though that method gets the job done (in 7 steps no less), the same can be accomplished in a much simpler way. In my opinion, one of the most powerful programming techniques is recursion. For readers new to programming — it is simply a function or method calling itself. ',
     host: 'FreeCodeCamp News',
   },
