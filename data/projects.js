@@ -222,4 +222,38 @@ export default [
       },
     ],
   },
+  {
+    id: 6,
+    title: 'React Weather App',
+    subtitle: 'Weather data fetching application built with React',
+    technologies: ['React', 'Bootstrap', 'SASS'],
+    repository: 'https://github.com/rvvergara/react-weather-app',
+    demoLink: 'https://react-weather-app-rvv.netlify.com/',
+    description: `
+      <p>Uses the OpenWeather API to fetch weather data from selected cities all over the world.</p>
+      <p>A previous version of this project was build using vanilla JavaScript and Pug for page templating. But React has proven to be a simpler solution.</p>
+      <strong>Features</strong>
+      <ol>
+        <li>Search term autocompletion.</li>
+        <li>Error message for when a city cannot be found.</li>
+      </ol>
+    `,
+    screenshots: [
+      {
+        original: 'https://tinyimg.io/i/TKKF7ha.png',
+        thumbnail: 'https://tinyimg.io/i/TKKF7ha.png',
+        caption: '',
+      },
+      {
+        original: 'http://tinyimg.io/i/FrqWkIl.png',
+        thumbnail: 'http://tinyimg.io/i/FrqWkIl.png',
+        caption: 'Autocomplete city name',
+      },
+      {
+        original: 'https://tinyimg.io/i/oXL8htj.png',
+        thumbnail: 'https://tinyimg.io/i/oXL8htj.png',
+        caption: 'City cannot be found error message',
+      },
+    ],
+  },
 ];
