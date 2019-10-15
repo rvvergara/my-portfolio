@@ -19,7 +19,7 @@ export default [
     id: 3,
     title: 'How to calculate a Binary Tree’s height using array iteration in Ruby',
     link: 'https://www.freecodecamp.org/news/how-to-calculate-a-binary-trees-height-using-array-iteration-in-ruby-63551c6c65fe/',
-    pic: 'https://cdn-media-1.freecodecamp.org/images/1*HItcyUcWWnuqDzKgNCoprw.jpeg',
+    pic: 'https://tinyimg.io/i/AJaxyAr.png',
     excerpt: 'If you observe the directories or file structure in your computer, it follows a (albeit the more general) tree structure. Each folder can contain files (the data) and a number of other directories (which are not necessarily data in themselves but rather just addresses of such data contained within those sub directories).',
     host: 'FreeCodeCamp News',
   },
@@ -29,5 +29,6 @@ export default [
     link: 'https://www.freecodecamp.org/news/how-to-calculate-binary-tree-height-with-the-recursive-method-aafc461f2201/',
     pic: 'https://cdn-media-1.freecodecamp.org/images/1*tsVyCA_zXrAh3LqTF4LHxw.png',
     excerpt: 'Previously I wrote about an algorithm for finding out the height of a binary tree using iteration. Though that method gets the job done (in 7 steps no less), the same can be accomplished in a much simpler way. In my opinion, one of the most powerful programming techniques is recursion. For readers new to programming — it is simply a function or method calling itself. ',
+    host: 'FreeCodeCamp News',
   },
 ];

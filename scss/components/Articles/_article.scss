@@ -1,0 +1,48 @@
+.article {
+  margin: $medium auto;
+
+  h4 {
+    font-size: $medium;
+
+    a {
+      color: $lighter-blue;
+      font-weight: 700;
+    }
+  }
+
+  .article-pic {
+    min-width: 25vw;
+    max-width: 25vw;
+    max-height: 15vw;
+  }
+
+  .article-link a {
+    color: $main-blue;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .article {
+    flex-direction: column;
+  }
+
+  img.article-pic {
+    min-width: 300px;
+  }
+
+  .article-title {
+    margin-top: 5px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .article-title {
+    a {
+      font-size: $regular;
+    }
+  }
+
+  .article-excerpt {
+    display: none;
+  }
+}
