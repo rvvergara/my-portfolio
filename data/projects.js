@@ -245,8 +245,8 @@ export default [
         caption: '',
       },
       {
-        original: 'http://tinyimg.io/i/FrqWkIl.png',
-        thumbnail: 'http://tinyimg.io/i/FrqWkIl.png',
+        original: 'https://tinyimg.io/i/FrqWkIl.png',
+        thumbnail: 'https://tinyimg.io/i/FrqWkIl.png',
         caption: 'Autocomplete city name',
       },
       {
