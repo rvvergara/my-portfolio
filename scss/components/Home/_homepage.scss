@@ -1,0 +1,30 @@
+.jumbotron {
+  h1 {
+    font-weight: 700;
+  }
+
+  p {
+    font-size: $medium;
+  }
+}
+
+.problem-intro {
+  background: url('/static/images/ideas-darker.jpg') no-repeat 0% 50%;
+  background-size: cover;
+  padding: 50px 100px;
+  color: $white;
+  text-shadow: black 1px 1px 0.8px;
+}
+
+.my-intro {
+  background: $white;
+  padding: 0;
+
+  h2 {
+    color: $main-blue;
+  }
+
+  p {
+    color: $dark-gray;
+  }
+}
