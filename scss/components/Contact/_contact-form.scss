@@ -1,0 +1,27 @@
+.success-flash {
+  background: #bbf086;
+  color: $dark-gray;
+}
+
+.error-flash {
+  background: #a33838;
+  color: #e0e0b9;
+}
+
+.success-flash,
+.error-flash {
+  padding: 15px;
+  text-align: center;
+  position: fixed;
+  top: 50px;
+  width: 100%;
+  left: 0;
+
+  @media screen and (max-width: 575px) {
+    top: 90px;
+  }
+
+  @media screen and (max-width: 400px) {
+    top: 80px;
+  }
+}

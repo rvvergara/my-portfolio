@@ -29,7 +29,7 @@ const ContactForm = () => {
   return (
     <>
       {
-        status === 'SUCCESS' && <div className="success-flash">Message Sent</div>
+        status === 'SUCCESS' && <div className="success-flash">Your Message Was Delivered</div>
       }
       {
         status === 'ERROR' && <div className="error-flash">Message Cannot Be Delivered</div>
