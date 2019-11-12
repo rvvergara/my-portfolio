@@ -23,7 +23,6 @@ export default class MyDocument extends Document {
           <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
           <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
           <link rel="manifest" href="/manifest.json" />
-          <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen" />
           <meta name="msapplication-TileColor" content="#ffffff" />
           <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
           <meta name="theme-color" content="#ffffff" />
@@ -36,7 +35,6 @@ export default class MyDocument extends Document {
         </Head>
         <body>
           <Main />
-          <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8" />
           <NextScript />
         </body>
       </html>
