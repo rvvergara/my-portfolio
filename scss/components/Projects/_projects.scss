@@ -1,0 +1,51 @@
+@import './project-modal';
+
+#projects {
+  margin: 0 auto;
+  padding-top: 2rem;
+  margin-bottom: $xlarge;
+}
+
+.project-card {
+  box-shadow: 1px 1px 0.5px $shadow-color;
+  box-sizing: border-box;
+  transition: 0.5s;
+  margin-bottom: $xlarge;
+  min-height: 200px;
+  padding-top: $xlarge;
+
+  &:hover {
+    // background: $main-blue;
+    cursor: pointer;
+    transform: scale(1.05);
+    position: absolute;
+    z-index: 1000;
+    box-shadow: $main-blue 5px 5px 5px;
+
+    .card-title {
+      opacity: 1;
+    }
+
+    .card-img-top {
+      opacity: 0.5;
+    }
+  }
+
+  @media screen and (max-width: 991px) {
+    margin-bottom: $small;
+  }
+}
+
+.card-title {
+  color: $main-blue;
+  font-weight: 700;
+  margin-bottom: 0;
+  padding: 0.25rem 0;
+  text-align: center;
+  text-shadow: $gray 1px 1px 2px;
+  position: absolute;
+  top: 35%;
+  width: 100%;
+  opacity: 0;
+  text-align: center;
+}

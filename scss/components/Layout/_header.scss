@@ -1,0 +1,44 @@
+@import './main-nav';
+
+.navbar {
+  box-shadow: 0px 2px 2px 0px $shadow-color;
+}
+
+.navbar-light .navbar-brand {
+  color: $main-blue;
+  font-size: $xlarge;
+  font-weight: 700;
+  padding-top: 0;
+  padding-bottom: 0;
+  text-shadow: lighten(#999999, 0.5) 0.5px 1px 1px;
+
+  &:hover {
+    color: $main-blue;
+  }
+
+  .subtitle {
+    font-size: $medium;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .navbar-light .navbar-brand {
+    font-size: $medium;
+
+    .subtitle {
+      font-size: $small;
+    }
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .navbar-brand {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+  }
+}
+
+.row {
+  width: 90%;
+}
