@@ -26,6 +26,7 @@ export default class MyDocument extends Document {
           <link rel="manifest" href="/manifest.json" />
           <meta name="msapplication-TileColor" content="#ffffff" />
           <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+          <meta name="facebook-domain-verification" content="419kahkgkbb5q22m3ces2jxsmcfjp0" />
           <meta name="theme-color" content="#ffffff" />
           <link
             rel="stylesheet"
