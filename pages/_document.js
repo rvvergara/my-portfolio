@@ -27,6 +27,7 @@ export default class MyDocument extends Document {
           <meta name="msapplication-TileColor" content="#ffffff" />
           <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
           <meta name="facebook-domain-verification" content="419kahkgkbb5q22m3ces2jxsmcfjp0" />
+          <meta name="facebook-domain-verification" content="lfrkt4z174hrbq5q81glnbmlhlge6q" />
           <meta name="theme-color" content="#ffffff" />
           <link
             rel="stylesheet"
